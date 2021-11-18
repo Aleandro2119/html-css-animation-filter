@@ -71,3 +71,14 @@
     filter: grayscale(1) sepia(4);
     border-radius: 15px;
 }
+
+/*Ex 9*/
+.ex-9-img{
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(1) sepia(4);
+    border-radius: 15px;
+    transform: scale(2);
+}

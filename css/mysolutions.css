@@ -95,3 +95,21 @@
     }
     
 }
+
+/*Ex 11*/
+.ex-11-icon:hover{
+    animation: spin 2s;
+
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0);
+    }
+
+    90%{
+        transform: rotate(300deg);
+    }
+
+
+}

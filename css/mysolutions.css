@@ -82,3 +82,16 @@
     border-radius: 15px;
     transform: scale(2);
 }
+
+/*Ex 10*/
+.ex-10-icon{
+    animation: circle 2s infinite;
+}
+
+@keyframes circle{
+    0%{
+        transform: rotate(1turn);
+
+    }
+    
+}
